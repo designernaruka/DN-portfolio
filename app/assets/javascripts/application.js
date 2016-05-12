@@ -16,9 +16,8 @@
 
 //= require agency
 //= require bootstrap
-//= require cbpAnimatedHeader
 //= require classie
-//= require jqBootstrapValidation
-//= require jquery
 //= require jquery.easing.min
+//= require cbpAnimatedHeader
 //= require contact_me
+//= require jqBootstrapValidation
