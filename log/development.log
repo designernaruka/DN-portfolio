@@ -29587,3 +29587,4019 @@ ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
   Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
   Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.6ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:11:08 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 429ms (Views: 428.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/jquery.easing.min.self-617c48bf8c67f481ad4509a7eb1e0c4cabebec93529c7f54b5848332107d942b.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/application.self-7c44b34571f9c6f50024ec815db695a00182b9937b48d97c4ac1515ab6b385a0.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/contact_me.self-d5776c95ceb93f825045d01514bf3c4938b90f1309b19c3a6efbe26b62e09465.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:11:09 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:11:09 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (101.6ms)
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:12:01 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:12:01 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:12:25 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-b361597222bdd19120baa62007b868abdb95aec3b1151778e66ecca9ecf7d4d3.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/contact_me.self-d5776c95ceb93f825045d01514bf3c4938b90f1309b19c3a6efbe26b62e09465.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/jqBootstrapValidation.self-8634f60ded7baed71adee5481c39ec7bc3ab53b7a1df0b6706cc82529eae7d6f.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/jquery.easing.min.self-617c48bf8c67f481ad4509a7eb1e0c4cabebec93529c7f54b5848332107d942b.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/application.self-7c44b34571f9c6f50024ec815db695a00182b9937b48d97c4ac1515ab6b385a0.js?body=1" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:12:26 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.4ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:23:46 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `page_title' for #<#<Class:0x007f99d1f27f20>:0x007f99d6d46508>):
+    2: <html>
+    3:   <% cache('landing-head') do %>
+    4:   <head>
+    5:     <title><%= page_title %></title>
+    6:     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    7:     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    8:     <meta charset="utf-8" />
+  app/views/layouts/application.html.erb:5:in `block in _app_views_layouts_application_html_erb__782951028049777148_70149347496900'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb__782951028049777148_70149347496900'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.7ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:24:02 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `tagline' for #<#<Class:0x007f99d1f27f20>:0x007f99d5d34228>):
+     6:     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     7:     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     8:     <meta charset="utf-8" />
+     9:     <meta description="Punchh,punchh,mobile crm,restaurants,mobile,crm,loyalty,<%= tagline %>,punch"></meta>
+    10:     <meta title="Punchh :: <%= tagline %>"></meta>
+    11:     <meta name="description" content="Punchh - Mobile CRM">
+    12:     <meta name="viewport" content="width=device-width, initial-scale=1">
+  app/views/layouts/application.html.erb:9:in `block in _app_views_layouts_application_html_erb__782951028049777148_70149348485200'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb__782951028049777148_70149348485200'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.6ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:24:14 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `tagline' for #<#<Class:0x007f99d1f27f20>:0x007f99d6b6add8>):
+     6:     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     7:     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     8:     <meta charset="utf-8" />
+     9:     <meta description="Punchh,punchh,mobile crm,restaurants,mobile,crm,loyalty,<%= tagline %>,punch"></meta>
+    10:     <meta title="Punchh :: <%#= tagline %>"></meta>
+    11:     <meta name="description" content="Punchh - Mobile CRM">
+    12:     <meta name="viewport" content="width=device-width, initial-scale=1">
+  app/views/layouts/application.html.erb:9:in `block in _app_views_layouts_application_html_erb__782951028049777148_70149354477960'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb__782951028049777148_70149354477960'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.9ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:24:19 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `tagline' for #<#<Class:0x007f99d1f27f20>:0x007f99d5f84758>):
+     6:     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     7:     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     8:     <meta charset="utf-8" />
+     9:     <meta description="Punchh,punchh,mobile crm,restaurants,mobile,crm,loyalty,<%= tagline %>,punch"></meta>
+    10:     <meta name="description" content="Punchh - Mobile CRM">
+    11:     <meta name="viewport" content="width=device-width, initial-scale=1">
+    12:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+  app/views/layouts/application.html.erb:9:in `block in _app_views_layouts_application_html_erb__782951028049777148_70149356112560'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb__782951028049777148_70149356112560'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.3ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:24:30 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `robots' for #<#<Class:0x007f99d1f27f20>:0x007f99d5a8c9f8>):
+    13:     <meta property="og:type" content="website">
+    14:     <meta property="og:url" content="https://punchh.com/">
+    15:     <meta property="og:image" content="http://cdn.punchh.com/og-images/screen-punchh.png">
+    16:     <%= robots %>
+    17:     <%= csrf_meta_tag %>
+    18:     <%= punchh_favicon %>
+    19:     <meta name="apple-itunes-app" content="app-id=768163905"></meta>
+  app/views/layouts/application.html.erb:16:in `block in _app_views_layouts_application_html_erb__782951028049777148_70149314915860'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb__782951028049777148_70149314915860'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.2ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:24:44 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/v5layout.css" for ::1 at 2016-05-12 22:24:44 +0530
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/v5layout.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.8ms)
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:24:44 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:24:57 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/stylesheet.css" for ::1 at 2016-05-12 22:24:57 +0530
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/stylesheet.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.5ms)
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:24:57 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:25:13 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:25:13 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:25:13 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:25:13 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:25:13 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:25:13 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:25:13 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:25:14 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.8ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:25:14 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:25:20 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:25:20 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:25:21 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.2ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:25:21 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:29:29 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:29:29 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.8ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:31:23 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:31:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.3ms)
+
+
+Started GET "/assets/favicion.ico" for ::1 at 2016-05-12 22:31:24 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/favicion.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.5ms)
+
+
+Started GET "/assets/favicion.ico" for ::1 at 2016-05-12 22:31:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/favicion.ico"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.8ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:31:44 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:31:44 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.8ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:31:44 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:31:48 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:32:03 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `punchh_favicon' for #<#<Class:0x007f99d1f27f20>:0x007f99d3374280>):
+    24:         }
+    25:     </style>
+    26:     <![endif]-->
+    27:     <%= punchh_favicon %>
+    28:     <link rel="shortcut icon" href="/assets/ico/favicion.ico">
+    29:   </head>
+    30: <% end %>
+  app/views/layouts/application.html.erb:27:in `block in _app_views_layouts_application_html_erb__782951028049777148_70149312453600'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb__782951028049777148_70149312453600'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:39:38 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:39:38 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:39:39 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.7ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:39:39 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:40:04 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:40:04 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:40:04 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:40:04 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:40:04 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:40:04 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:40:04 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:40:04 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:40:05 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.9ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:40:05 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:40:44 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.8ms)
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:40:44 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:40:45 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:40:51 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:40:51 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (103.1ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:40:51 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:48:43 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial website_shared/_navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee]}. Searched in:
+  * "/Users/DesignerNaruka/projects/portfolio/app/views"
+):
+    1: <!-- Navigation -->
+    2: <%= render '/website_shared/navigation' %>
+    3: <nav class="navbar navbar-default navbar-fixed-top">
+    4:   <div class="container">
+    5:     <!-- Brand and toggle get grouped for better mobile display -->
+  app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___3950454127568103267_70149321185100'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:48:56 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d2d69340>):
+    24:           <a class="" href="#services">Home</a>
+    25:         </li>
+    26:         <li>
+    27:           <%= link_to "ABOUT US", about_path, class: "page-scroll" %>
+    28:         </li>
+    29:         <li>
+    30:           <%= link_to "WHAT WE DO", services_path, class: "page-scroll" %>
+  app/views/welcome/index.html.erb:27:in `_app_views_welcome_index_html_erb___3950454127568103267_70149321998400'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.2ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:49:32 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial website_shared/_navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee]}. Searched in:
+  * "/Users/DesignerNaruka/projects/portfolio/app/views"
+):
+    1: <!-- Navigation -->
+    2: <%= render '/website_shared/navigation' %>
+    3: <nav class="navbar navbar-default navbar-fixed-top">
+    4:   <div class="container">
+    5:     <!-- Brand and toggle get grouped for better mobile display -->
+  app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___3950454127568103267_70149321610500'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:49:37 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:49:37 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:49:37 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (128.3ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:49:38 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:50:01 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:50:01 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (102.0ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:50:01 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:02 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:03 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:04 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:16 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:25 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:28 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:30 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:31 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:50:32 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:51:48 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:51:48 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (105.9ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:51:48 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:52:30 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:52:30 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.4ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:52:31 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:54:16 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:54:17 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.4ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:54:17 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:54:34 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:54:34 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:54:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.6ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:54:35 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:58:13 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:58:13 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:58:14 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (126.5ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:58:14 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:58:18 +0530
+
+
+Started GET "/pages/about" for ::1 at 2016-05-12 22:58:19 +0530
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:58:19 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:58:19 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:58:19 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:58:21 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 22:58:45 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (17.6ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `about_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d25e8918>):
+    20:           <a href="#page-top"></a>
+    21:         </li>
+    22:         <li>
+    23:           <%= link_to 'ABOUT', about_path('about') , class: 'page-scroll' %>
+    24:         </li>
+    25:         <li>
+    26:           <a class="page-scroll" href="#about">WHAT WE DO</a>
+  app/views/welcome/index.html.erb:23:in `_app_views_welcome_index_html_erb___3950454127568103267_70149322005300'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.1ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:58:58 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `about_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d89842b0>):
+    20:           <a href="#page-top"></a>
+    21:         </li>
+    22:         <li>
+    23:           <%= link_to 'ABOUT', about_path('about') , class: 'page-scroll' %>
+    24:         </li>
+    25:         <li>
+    26:           <a class="page-scroll" href="#about">WHAT WE DO</a>
+  app/views/welcome/index.html.erb:23:in `_app_views_welcome_index_html_erb___3950454127568103267_70149318170620'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.4ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:59:11 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `about_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d25f84f8>):
+    20:           <a href="#page-top"></a>
+    21:         </li>
+    22:         <li>
+    23:           <%= link_to 'ABOUT', about_path('about') , class: 'page-scroll' %>
+    24:         </li>
+    25:         <li>
+    26:           <a class="page-scroll" href="#about">WHAT WE DO</a>
+  app/views/welcome/index.html.erb:23:in `_app_views_welcome_index_html_erb___3950454127568103267_70149318088980'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (53.2ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 22:59:24 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 22:59:24 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.3ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 22:59:24 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:59:25 +0530
+
+
+Started GET "/pages/about" for ::1 at 2016-05-12 22:59:28 +0530
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 22:59:28 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 22:59:28 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:59:28 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 22:59:30 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 23:00:58 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `welcome_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d8920be8>):
+    20:           <a href="#page-top"></a>
+    21:         </li>
+    22:         <li>
+    23:           <%= link_to 'ABOUT', welcome_path('/') , class: 'page-scroll' %>
+    24:         </li>
+    25:         <li>
+    26:           <a class="page-scroll" href="#about">WHAT WE DO</a>
+  app/views/welcome/index.html.erb:23:in `_app_views_welcome_index_html_erb___3950454127568103267_70149356723280'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.4ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 23:01:02 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `welcome_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d5d24f58>):
+    20:           <a href="#page-top"></a>
+    21:         </li>
+    22:         <li>
+    23:           <%= link_to 'ABOUT', welcome_path('#about') , class: 'page-scroll' %>
+    24:         </li>
+    25:         <li>
+    26:           <a class="page-scroll" href="#about">WHAT WE DO</a>
+  app/views/welcome/index.html.erb:23:in `_app_views_welcome_index_html_erb___3950454127568103267_70149347212880'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.3ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 23:01:14 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `welcome_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d88f1b18>):
+    20:           <a href="#page-top"></a>
+    21:         </li>
+    22:         <li>
+    23:           <%= link_to 'ABOUT', welcome_path('#index') , class: 'page-scroll' %>
+    24:         </li>
+    25:         <li>
+    26:           <a class="page-scroll" href="#about">WHAT WE DO</a>
+  app/views/welcome/index.html.erb:23:in `_app_views_welcome_index_html_erb___3950454127568103267_70149369988160'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 23:01:19 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `about_path' for #<#<Class:0x007f99d1f27f20>:0x007f99d6efa4d0>):
+    20:           <a href="#page-top"></a>
+    21:         </li>
+    22:         <li>
+    23:           <%= link_to 'ABOUT', about_path('about') , class: 'page-scroll' %>
+    24:         </li>
+    25:         <li>
+    26:           <a class="page-scroll" href="#about">WHAT WE DO</a>
+  app/views/welcome/index.html.erb:23:in `_app_views_welcome_index_html_erb___3950454127568103267_70149356374140'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.2ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 23:01:27 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 23:01:27 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 23:01:27 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 23:01:27 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 23:01:27 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 23:01:27 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 23:01:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.4ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 23:01:28 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 23:02:01 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 23:02:01 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-05-12 23:02:01 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-05-12 23:02:01 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 23:02:02 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.4ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 23:02:02 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 23:02:39 +0530
+
+
+Started GET "/" for ::1 at 2016-05-12 23:02:41 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-05-12 23:02:41 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-05-12 23:02:41 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-05-12 23:02:42 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.3ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 23:02:42 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 23:03:18 +0530
+
+
+Started GET "/assets/header-bg.m" for ::1 at 2016-05-12 23:03:39 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/header-bg.m"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.0ms)
+
+
+Started GET "/assets/header-bg.mp" for ::1 at 2016-05-12 23:03:39 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/header-bg.mp"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.5ms)
+
+
+Started GET "/assets/header-bg.mp3" for ::1 at 2016-05-12 23:03:39 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/header-bg.mp3"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.2ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-05-12 23:03:40 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-05-12 23:26:36 +0530
+
+
+Started GET "/" for ::1 at 2016-06-02 12:50:24 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 749ms (Views: 747.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-06-02 12:50:25 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-06-02 12:50:27 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (44.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (198.9ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-02 12:50:27 +0530
+
+
+Started GET "/pages/about" for ::1 at 2016-06-02 13:57:42 +0530
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-06-02 13:57:43 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-06-02 13:57:43 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-06-02 13:57:43 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-06-02 13:57:43 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-02 13:57:43 +0530
+
+
+Started GET "/" for ::1 at 2016-06-02 13:57:45 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-06-02 13:57:45 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (142.4ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-02 13:57:45 +0530
+
+
+Started GET "/" for ::1 at 2016-06-03 12:52:25 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 330ms (Views: 329.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/agency.self-f914c3e887c3e7bb8ab4824f9651b031a2074b7791dad53d8641be86715e9f2d.css?body=1" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/application.self-aa419dc1062033c3ecb9b011b11a946f6fdbae3af76ef08b1a8193bb140a49a4.css?body=1" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/portfolio/roundicons.png" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/portfolio/treehouse.png" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/portfolio/startup-framework.png" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/portfolio/golden.png" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/portfolio/escape.png" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/about/1.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/portfolio/dreams.png" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/about/2.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/about/3.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/about/4.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/team/1.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/team/2.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/team/3.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/logos/envato.jpg" for ::1 at 2016-06-03 12:52:25 +0530
+
+
+Started GET "/assets/logos/designmodo.jpg" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/logos/themeforest.jpg" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/logos/creative-market.jpg" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/portfolio/roundicons-free.png" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/portfolio/startup-framework-preview.png" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/bootstrap/bootstrap" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/agency" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/portfolio/treehouse-preview.png" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/portfolio/golden-preview.png" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/portfolio/escape-preview.png" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/assets/portfolio/dreams-preview.png" for ::1 at 2016-06-03 12:52:26 +0530
+
+
+Started GET "/img/map-image.png" for ::1 at 2016-06-03 12:52:26 +0530
+
+ActionController::RoutingError (No route matches [GET] "/img/map-image.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/DesignerNaruka/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (48.3ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (308.4ms)
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-06-03 12:52:27 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-03 12:52:27 +0530
