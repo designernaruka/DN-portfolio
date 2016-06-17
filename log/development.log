@@ -37509,3 +37509,21 @@ Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba4
 
 
 Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/" for ::1 at 2016-06-17 11:07:06 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-17 11:07:06 +0530
+
+
+Started GET "/" for ::1 at 2016-06-17 11:10:43 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 58ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-17 11:10:44 +0530
