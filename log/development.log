@@ -37329,3 +37329,183 @@ Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba4
 
 
 Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-16 15:47:16 +0530
+
+
+Started GET "/" for ::1 at 2016-06-16 16:03:49 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2723ms (Views: 2720.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.self-8fe1b09ad9b52397b6a01263533b9b496dc8cb7d0aff7ecfa51fee429da3b226.css?body=1" for ::1 at 2016-06-16 16:03:52 +0530
+
+
+Started GET "/assets/mixins.self-521bfffb808bd9401d6ce4553fc074893c400deefabe017a6bb799b9c47969b9.css?body=1" for ::1 at 2016-06-16 16:03:52 +0530
+
+
+Started GET "/assets/v1layout.self-dbd8794c7dbc4f8324e853958c57d54c57f4742a3170ebf06b285ca7ced08a48.css?body=1" for ::1 at 2016-06-16 16:03:52 +0530
+
+
+Started GET "/assets/application.self-553e1045a765a508a9c7326c1a0da4e9727dc6c9a9f7c8d9e9362ea0528448c2.css?body=1" for ::1 at 2016-06-16 16:03:52 +0530
+
+
+Started GET "/assets/header.self-abdcbd53fcf62336062c67c222926f7159e1cfb06bee073e6bcf2386f1b5b7f1.css?body=1" for ::1 at 2016-06-16 16:03:52 +0530
+
+
+Started GET "/assets/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-16 16:03:52 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-06-16 16:03:53 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-16 16:03:53 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-06-16 16:03:53 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-18e969fb4a0dff416f875b6db38ed19456c5d3efddf9704c50b3cc108f6fda8f.js?body=1" for ::1 at 2016-06-16 16:03:53 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-06-16 16:03:53 +0530
+
+
+Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-06-16 16:03:53 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-16 16:03:54 +0530
+
+
+Started GET "/" for ::1 at 2016-06-16 16:08:09 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1927ms (Views: 1925.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.self-8fe1b09ad9b52397b6a01263533b9b496dc8cb7d0aff7ecfa51fee429da3b226.css?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/header.self-abdcbd53fcf62336062c67c222926f7159e1cfb06bee073e6bcf2386f1b5b7f1.css?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/mixins.self-521bfffb808bd9401d6ce4553fc074893c400deefabe017a6bb799b9c47969b9.css?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/application.self-553e1045a765a508a9c7326c1a0da4e9727dc6c9a9f7c8d9e9362ea0528448c2.css?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/v1layout.self-dbd8794c7dbc4f8324e853958c57d54c57f4742a3170ebf06b285ca7ced08a48.css?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-18e969fb4a0dff416f875b6db38ed19456c5d3efddf9704c50b3cc108f6fda8f.js?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-16 16:08:12 +0530
+
+
+Started GET "/" for ::1 at 2016-06-16 16:08:57 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1789ms (Views: 1788.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.self-8fe1b09ad9b52397b6a01263533b9b496dc8cb7d0aff7ecfa51fee429da3b226.css?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/header.self-abdcbd53fcf62336062c67c222926f7159e1cfb06bee073e6bcf2386f1b5b7f1.css?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/v1layout.self-dbd8794c7dbc4f8324e853958c57d54c57f4742a3170ebf06b285ca7ced08a48.css?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/mixins.self-521bfffb808bd9401d6ce4553fc074893c400deefabe017a6bb799b9c47969b9.css?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/application.self-553e1045a765a508a9c7326c1a0da4e9727dc6c9a9f7c8d9e9362ea0528448c2.css?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-18e969fb4a0dff416f875b6db38ed19456c5d3efddf9704c50b3cc108f6fda8f.js?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-06-16 16:08:59 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-16 16:09:00 +0530
+
+
+Started GET "/" for ::1 at 2016-06-17 11:05:33 +0530
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 507ms (Views: 506.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.self-8fe1b09ad9b52397b6a01263533b9b496dc8cb7d0aff7ecfa51fee429da3b226.css?body=1" for ::1 at 2016-06-17 11:05:33 +0530
+
+
+Started GET "/assets/application.self-553e1045a765a508a9c7326c1a0da4e9727dc6c9a9f7c8d9e9362ea0528448c2.css?body=1" for ::1 at 2016-06-17 11:05:33 +0530
+
+
+Started GET "/assets/v1layout.self-dbd8794c7dbc4f8324e853958c57d54c57f4742a3170ebf06b285ca7ced08a48.css?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/mixins.self-521bfffb808bd9401d6ce4553fc074893c400deefabe017a6bb799b9c47969b9.css?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/header.self-abdcbd53fcf62336062c67c222926f7159e1cfb06bee073e6bcf2386f1b5b7f1.css?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-18e969fb4a0dff416f875b6db38ed19456c5d3efddf9704c50b3cc108f6fda8f.js?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-06-17 11:05:34 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-17 11:05:34 +0530
