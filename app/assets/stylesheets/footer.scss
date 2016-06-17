@@ -1,8 +1,84 @@
+// Import Variables and mixins
+
+@import "variables";
+@import "mixins";
+
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  background-color: #f5f5f5;
+  padding: $spacenone;
+}
+
+// contact block css
+.contactInfo {
+  background-color: $grey-secondary;
+
+  .container {
+    padding: $spacesmall + $spacexsmall 0;
+  }
+
+}
+
+// Contact Block end
+
+// contact form and map block
+
+.contactmapForum {
+
+  > div {
+    padding: $spacenone;
+  }
+
+}
+
+// contact form and map block end
+
+// contactUpdates block css
+
+  .contactUpdates {
+
+    .container {
+      padding: $spacexlarge + $spacemedium 0;
+    }
+
+  }
+
+// contact updates vblock css end
+
+// footer navigation block css
+.footerNavigation {
+  color: $brand-secondary;
+  font-size: $textxsmall;
+
+  .container {
+    border-bottom: $solidborder 1px $brand-secondary;
+    border-top: $solidborder 1px $brand-secondary;
+    padding: $spacesmall + $spacexsmall 0;
+
+    div {
+      padding: 0;
+    }
+  }
+
+  a {
+    &:after {
+      border-right: $solidborder 1px $brand-secondary;
+      content: ' ';
+      display: $inBlock;
+      height: 13px;
+      margin: 0 $spacesmall;
+      vertical-align: middle;
+    }
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+}
+// footer navigation end
+
+// footer logo
+
+.footerLogo {
+  padding: $spacemedium 0;
 }

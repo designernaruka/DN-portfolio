@@ -19,6 +19,7 @@ $textxlarge: 8em;
 
 
 // Common Margin & paddings & spacing
+$spacenone:       0px;
 $spacexsmall:     5px;
 $spacesmall:     10px;
 $spacemedium:    20px;
@@ -26,10 +27,17 @@ $spacelarge:     40px;
 $spacexlarge:    80px;
 $spacexxxlarge: 150px;
 
-// alignment
+// alignment and block
 
 $alignleft :   left;
 $alignright : right;
+$aligncenter: center;
+$inBlock: inline-block;
+$block: block;
+
+// border and outline
+$dashedborder: dashed;
+$solidborder:   solid;
 
 
 // verticall alignment

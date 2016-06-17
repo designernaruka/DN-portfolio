@@ -1,13 +1,92 @@
-// Import Css Files
+// Import Variables and mixins
 
 @import "variables";
 @import "mixins";
-@import "header";
-@import "footer";
-
 
 // Common CSS
 
+body {
+  color: $brand-secondary;
+  font-size: 1.2em;
+
+  a {
+    @include transiction(0.6s);
+    border: none;
+    color: $brand-secondary;
+    text-decoration: none;
+
+    &:hover {
+      color: $brand-primary;
+      text-decoration: none;
+    }
+  }
+}
+
 // Headings Common
 
+h3 {
+  font-size: $textsmall + $textxsmall;
+  font-weight: 500;
+
+  &:before {
+    border-right: $solidborder 3px $brand-primary;
+    content: '';
+    display: $inBlock;
+    height: 60px;
+    margin-left: $spacesmall;
+    vertical-align: text-top;
+    width: 3px;
+  }
+
+  span {
+    display: $block;
+    font-size: 0.8em;
+    font-weight: lighter;
+  }
+
+}
+
 // Common Padding & margin
+
+.spaceTzero {
+  padding-top : 0;
+}
+
+.spaceRzero {
+  padding-right : 0;
+}
+
+.spaceBzero {
+  padding-bottom : 0;
+}
+
+.spaceLzero {
+  padding-left : 0;
+}
+
+// align and floats
+
+.alignleft {
+  float: $alignleft;
+}
+
+.textleft {
+  float: $alignleft;
+}
+
+.alignright {
+  float: $alignright;
+}
+
+.textright {
+  text-align: $alignright;
+}
+
+.aligncenter {
+  text-align: $aligncenter;
+}
+
+// text color
+.secondaryColor {
+  color: $brand-primary;
+}

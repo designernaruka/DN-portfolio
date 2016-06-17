@@ -13,5 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+// Bootstrap Files calling
 @import "bootstrap/bootstrap";
+
+// Variables and mixins calling
+@import "variables";
+@import "mixins";
+
+// header and footer
+@import "header";
+@import "footer";
+
+// page settings css
 @import "v1layout";
