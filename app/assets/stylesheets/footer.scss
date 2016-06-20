@@ -27,6 +27,61 @@ footer {
     padding: $spacenone;
   }
 
+  form {
+    padding: $spacelarge - $spacesmall 0 0;
+  }
+
+}
+
+.contact-form {
+  margin-top: $spacesmall;
+
+  .textarea {
+    resize: none;
+  }
+
+}
+
+.form-control {
+  @include transiction(0.6s);
+  border-radius: 0;
+  border: none;
+  border-bottom: solid 3px $grey-optional;
+  box-shadow: none;
+  color: $brand-secondary;
+  height: 49px;
+  text-transform: $uppercase;
+  padding: $spacexsmall + 1 0;
+
+  &:focus {
+    border-color: $brand-secondary;
+    box-shadow: none;
+    padding: $spacexsmall + 1 $spacemedium - 2;
+  }
+}
+
+.form-control-feedback {
+  line-height: 50px;
+  top: 0px;
+}
+
+.main-btn {
+  @include border-radius(3px);
+  @include transiction(0.6s);
+  background: $brand-primary;
+  border-color: $brand-primary;
+  color: $grey-secondary;
+  padding: $spacesmall $spacemedium;
+  text-shadow: none;
+  text-transform: $uppercase;
+
+
+  &:hover {
+    background: $brand-secondary;
+    border-color: $brand-secondary;
+    color: $brand-white;
+  }
+
 }
 
 // contact form and map block end

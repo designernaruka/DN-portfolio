@@ -21,3 +21,4 @@
 //= require cbpAnimatedHeader
 //= require contact_me
 //= require jqBootstrapValidation
+//= require bootstrapValidator.min

@@ -24,23 +24,38 @@ body {
 
 // Headings Common
 
+h1,
+h2,
 h3 {
-  font-size: $textsmall + $textxsmall;
-  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.headingSecondary {
+
+  .headingHolder {
+    display: $inBlock;
+    padding: $spacexsmall 0 $spacexsmall $spacesmall;
+    width: $width100p;
+  }
+
+  h2 {
+    font-size: $textmedium - 0.8;
+  }
 
   &:before {
     border-right: $solidborder 3px $brand-primary;
     content: '';
     display: $inBlock;
-    height: 60px;
-    margin-left: $spacesmall;
-    vertical-align: text-top;
+    height: 77px;
+    margin-left: -15px;;
+    vertical-align: $verticalTop;
     width: 3px;
   }
 
   span {
     display: $block;
-    font-size: 0.8em;
+    font-size: $textsmall - 0.3;
     font-weight: lighter;
   }
 

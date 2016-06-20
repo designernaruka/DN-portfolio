@@ -7,6 +7,7 @@ $brand-secondary: #292E4A;
 $brand-white:     #ffffff;
 $grey-primary:    #D5D5D5;
 $grey-secondary:  #F5F5F5;
+$grey-optional: #E3E3E3;
 
 
 // Font size
@@ -34,6 +35,8 @@ $alignright : right;
 $aligncenter: center;
 $inBlock: inline-block;
 $block: block;
+$verticalTop : top;
+$verticaltext-Top : text-top;
 
 // border and outline
 $dashedborder: dashed;
@@ -42,4 +45,10 @@ $solidborder:   solid;
 
 // verticall alignment
 
-// font weight
+// font weight and case
+
+$uppercase: uppercase;
+
+
+// width
+$width100p : 100%;
