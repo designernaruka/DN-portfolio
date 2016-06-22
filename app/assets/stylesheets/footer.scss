@@ -28,7 +28,7 @@ footer {
   }
 
   form {
-    padding: $spacelarge - $spacesmall 0 0;
+    padding: $spacelarge - $spacesmall 0;
   }
 
 }
@@ -86,12 +86,88 @@ footer {
 
 // contact form and map block end
 
+// social connect blcok css
+.socialConnect {
+  background-color: $grey-secondary;
+  padding: $spacexlarge + $spacemedium 0;
+}
+
+.iconHolder {
+  border-right: $dashedborder 2px $grey-primary;
+  height: 71px;
+  padding: $spacexsmall + 1 $spacesmall;
+  text-align: $aligncenter;
+
+  a {
+    @include border-radius(30px);
+    background-color: $grey-primary;
+    display: $inBlock;
+    height: 58px;
+    width: 58px;
+
+    &:hover {
+      background-color: $brand-secondary;
+    }
+
+  }
+
+}
+
+.socialIcons {
+  background: image-url("sprites/socialIcons.svg") 0 0 no-repeat;
+}
+
+
 // contactUpdates block css
 
   .contactUpdates {
 
     .container {
       padding: $spacexlarge + $spacemedium 0;
+    }
+
+    .btn-lg {
+      padding: $spacesmall + 3 $spacesmall + $spacexsmall + 1;
+    }
+
+    .input-group {
+      @include border-radius(25px);
+      background-color: $brand-white;
+      border: solid 2px $brand-secondary;
+      margin-top: $spacesmall;
+    }
+
+    .inputText {
+      @include border-radius(25px 0 0 25px);
+      color: $brand-secondary;
+      font-size: $textxsmall;
+      font-weight: 400;
+      letter-spacing: 1px;
+      text-align: $alignleft;
+
+      &:focus {
+        outline: none;
+      }
+
+    }
+
+    .btnSubmit {
+      @include border-radius(0 25px 25px 0);
+      @include transiction(0.6s);
+      background-color: $brand-secondary;
+      border-color: $brand-secondary;
+      color: $brand-white;
+      font-size: $textxsmall;
+      font-weight: 300;
+      letter-spacing: 1px;
+      outline: none;
+      position: $absolute;
+      right: -1px;
+
+      &:hover {
+        background-color: $brand-primary;
+        border-color: $brand-primary;
+      }
     }
 
   }

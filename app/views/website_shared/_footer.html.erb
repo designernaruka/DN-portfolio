@@ -52,7 +52,8 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <button type="submit" class="btn main-btn btn-lg">Send message</button>
+              <button type="submit" class="btn main-btn btn-lg hidden-sm hidden-xs">Send message</button>
+              <button type="submit" class="btn main-btn btn-lg btn-block hidden-lg hidden-md">Send message</button>
             </div>
           </div>
         </form>
@@ -103,11 +104,72 @@
 
   <!-- contact map and forum end -->
 
+  <!-- socially connected icons -->
+
+  <section class="socialConnect">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+          <div class="headingSecondary col-md-offset-2">
+            <div class="headingHolder">
+              <h2>LET'S CONNECT <i class="textLighter">SOCIALLY</i></h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 spaceBnano spaceTnano">
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 iconHolder">
+                <%= link_to " ", "#", class: " " %>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 iconHolder">
+                <%= link_to " ", "#", class: " " %>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 iconHolder">
+                <%= link_to " ", "#", class: " " %>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 iconHolder">
+                <%= link_to " ", "#", class: " " %>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 iconHolder">
+                <%= link_to " ", "#", class: " " %>
+              </div>
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 iconHolder">
+                <%= link_to " ", "#", class: " " %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- socially connected icons end -->
+
   <!-- get dn updates -->
 
   <section class="contactUpdates">
     <div class="container">
-      get updates section started from here
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-4">
+            <div class="headingSecondary">
+              <div class="headingHolder">
+                <h2>GET <i class="textLighter">DN</i> UPDATES</h2>
+                <span>Kinldy provide your e-mail id for get in touch always</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+            <div>
+              <form action="#">
+                <div class="input-group col-lg-12 col-md-12  col-sm-12  col-xs-12">
+                  <input class="btn btn-lg inputText col-lg-8 col-md-8 col-sm-7 col-xs-7" name="email" id="email" type="email" placeholder="Your Email" required>
+                  <button class="btn btn-info btn-lg btnSubmit col-lg-4 col-md-4 col-sm-5 col-xs-5" type="submit">SUBSCRIBE NOW</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -121,7 +183,7 @@
       All rights reserved. <span class="secondaryColor">&copy;</span> 2016
      </div>
      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 textright">
-      <%= link_to "HELLO INTRO", "#", class: " " %>
+      <%= link_to "HELLO", "#", class: " " %>
       <%= link_to "INTRO", "#", class: " " %>
       <%= link_to "SKILLS", "#", class: " " %>
       <%= link_to "WORK", "#", class: " " %>

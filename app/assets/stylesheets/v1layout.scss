@@ -43,19 +43,24 @@ h3 {
     font-size: $textmedium - 0.8;
   }
 
+  .textLighter {
+    font-style: normal;
+    font-weight: lighter;
+  }
+
   &:before {
     border-right: $solidborder 3px $brand-primary;
     content: '';
     display: $inBlock;
-    height: 77px;
-    margin-left: -15px;;
+    height: 40px;
+    margin: $spacexsmall + 1 0 0 -15px;
     vertical-align: $verticalTop;
     width: 3px;
   }
 
   span {
     display: $block;
-    font-size: $textsmall - 0.3;
+    font-size: $textsmall - 0.5;
     font-weight: lighter;
   }
 
@@ -77,6 +82,13 @@ h3 {
 
 .spaceLzero {
   padding-left : 0;
+}
+
+.spaceTnano {
+  padding-top : $spacelarge;
+}
+.spaceBnano {
+  padding-bottom : $spacelarge;
 }
 
 // align and floats
