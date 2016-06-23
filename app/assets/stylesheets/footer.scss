@@ -93,22 +93,34 @@ footer {
 }
 
 .iconHolder {
+  @include transiction(0.6s);
   border-right: $dashedborder 2px $grey-primary;
   height: 71px;
   padding: $spacexsmall + 1 $spacesmall;
   text-align: $aligncenter;
 
+  &.last-child {
+    border: none;
+  }
+
   a {
     @include border-radius(30px);
-    background-color: $grey-primary;
+    border: $solidborder 2px $brand-secondary;
+    color: $brand-secondary;
     display: $inBlock;
     height: 58px;
     width: 58px;
 
     &:hover {
       background-color: $brand-secondary;
+      color: $brand-white;
     }
 
+  }
+
+  .fa {
+    padding: $spacesmall - 1 0;
+    text-align: $aligncenter;
   }
 
 }
