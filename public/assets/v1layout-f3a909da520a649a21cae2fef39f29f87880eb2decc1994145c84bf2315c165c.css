@@ -1,0 +1,125 @@
+/* only mixins only in this file */
+/* border-radius */
+/* Border-Radius */
+/* Transactions */
+/* Box Shadow */
+/* Media Query for Tablet Landscape */
+/* line 8, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+body {
+  color: #292E4A;
+  font-size: 1.2em;
+}
+/* line 12, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+body a {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border: none;
+  color: #292E4A;
+  text-decoration: none;
+}
+/* line 18, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+body a:hover {
+  color: #A82900;
+  text-decoration: none;
+}
+
+/* line 27, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 36, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.headingSecondary .headingHolder {
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  width: 100%;
+}
+/* line 42, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.headingSecondary h2 {
+  font-size: 3.2em;
+}
+/* line 46, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.headingSecondary .textLighter {
+  font-style: normal;
+  font-weight: lighter;
+}
+/* line 51, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.headingSecondary:before {
+  border-right: solid 3px #A82900;
+  content: '';
+  display: inline-block;
+  height: 40px;
+  margin: 6px 0 0 -15px;
+  vertical-align: top;
+  width: 3px;
+}
+/* line 61, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.headingSecondary span {
+  display: block;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+/* line 71, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.spaceTzero {
+  padding-top: 0;
+}
+
+/* line 75, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.spaceRzero {
+  padding-right: 0;
+}
+
+/* line 79, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.spaceBzero {
+  padding-bottom: 0;
+}
+
+/* line 83, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.spaceLzero {
+  padding-left: 0;
+}
+
+/* line 87, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.spaceTnano {
+  padding-top: 40px;
+}
+
+/* line 90, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.spaceBnano {
+  padding-bottom: 40px;
+}
+
+/* line 96, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.alignleft {
+  float: left;
+}
+
+/* line 100, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.textleft {
+  float: left;
+}
+
+/* line 104, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.alignright {
+  float: right;
+}
+
+/* line 108, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.textright {
+  text-align: right;
+}
+
+/* line 112, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.aligncenter {
+  text-align: center;
+}
+
+/* line 117, /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets/v1layout.scss */
+.secondaryColor {
+  color: #A82900;
+}
