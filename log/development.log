@@ -66384,3 +66384,348 @@ Load paths:
   Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
   Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
   Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 13:16:38 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.1ms)
+  Rendered website_shared/_footer.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 864ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/DesignerNaruka/projects/portfolio/app/assets/images
+  /Users/DesignerNaruka/projects/portfolio/app/assets/javascripts
+  /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets
+  /Users/DesignerNaruka/projects/portfolio/vendor/assets/fonts
+  /Users/DesignerNaruka/projects/portfolio/vendor/assets/javascripts
+  /Users/DesignerNaruka/projects/portfolio/vendor/assets/stylesheets
+  /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1/gems/jquery-rails-4.1.1/vendor/assets/javascripts
+  /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    14:     <meta property="og:url" content="https://designernaruka.com/">
+    15:     <meta property="og:image" content="/assets/og-image/main-banner.jpg">
+    16:     <meta name="apple-itunes-app" content="app-id=768163905"></meta>
+    17:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    18:     <!--[if gte IE 9]>
+    19:       <style type="text/css">
+    20: 
+  app/assets/stylesheets/application.scss:20
+  app/views/layouts/application.html.erb:17:in `block in _app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 13:26:42 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.1ms)
+  Rendered website_shared/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 608ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant FontAwesome):
+    14:     <meta property="og:url" content="https://designernaruka.com/">
+    15:     <meta property="og:image" content="/assets/og-image/main-banner.jpg">
+    16:     <meta name="apple-itunes-app" content="app-id=768163905"></meta>
+    17:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    18:     <!--[if gte IE 9]>
+    19:       <style type="text/css">
+    20: 
+  app/assets/stylesheets/font-awesome.css.erb:12:in `block in singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `instance_eval'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-8:in `__tilt_70287563983400'
+  app/views/layouts/application.html.erb:17:in `block in _app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 13:27:57 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.0ms)
+  Rendered website_shared/_footer.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 621ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant FontAwesome):
+    14:     <meta property="og:url" content="https://designernaruka.com/">
+    15:     <meta property="og:image" content="/assets/og-image/main-banner.jpg">
+    16:     <meta name="apple-itunes-app" content="app-id=768163905"></meta>
+    17:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    18:     <!--[if gte IE 9]>
+    19:       <style type="text/css">
+    20: 
+  app/assets/stylesheets/font-awesome.css.erb:12:in `block in singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `instance_eval'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-8:in `__tilt_70287567252660'
+  app/views/layouts/application.html.erb:17:in `block in _app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 13:29:17 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.0ms)
+  Rendered website_shared/_footer.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 687ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant FontAwesome):
+    14:     <meta property="og:url" content="https://designernaruka.com/">
+    15:     <meta property="og:image" content="/assets/og-image/main-banner.jpg">
+    16:     <meta name="apple-itunes-app" content="app-id=768163905"></meta>
+    17:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    18:     <!--[if gte IE 9]>
+    19:       <style type="text/css">
+    20: 
+  app/assets/stylesheets/font-awesome.css.erb:12:in `block in singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `instance_eval'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-8:in `__tilt_70287504005160'
+  app/views/layouts/application.html.erb:17:in `block in _app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.2ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 13:30:46 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.0ms)
+  Rendered website_shared/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 667ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant FontAwesome):
+    14:     <meta property="og:url" content="https://designernaruka.com/">
+    15:     <meta property="og:image" content="/assets/og-image/main-banner.jpg">
+    16:     <meta name="apple-itunes-app" content="app-id=768163905"></meta>
+    17:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    18:     <!--[if gte IE 9]>
+    19:       <style type="text/css">
+    20: 
+  app/assets/stylesheets/font-awesome.css.erb:12:in `block in singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `instance_eval'
+  app/assets/stylesheets/font-awesome.css.erb:-6:in `singleton class'
+  app/assets/stylesheets/font-awesome.css.erb:-8:in `__tilt_70287584587180'
+  app/views/layouts/application.html.erb:17:in `block in _app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 13:31:02 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.0ms)
+  Rendered website_shared/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 890ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/DesignerNaruka/projects/portfolio/app/assets/images
+  /Users/DesignerNaruka/projects/portfolio/app/assets/javascripts
+  /Users/DesignerNaruka/projects/portfolio/app/assets/stylesheets
+  /Users/DesignerNaruka/projects/portfolio/vendor/assets/fonts
+  /Users/DesignerNaruka/projects/portfolio/vendor/assets/javascripts
+  /Users/DesignerNaruka/projects/portfolio/vendor/assets/stylesheets
+  /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1/gems/jquery-rails-4.1.1/vendor/assets/javascripts
+  /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    14:     <meta property="og:url" content="https://designernaruka.com/">
+    15:     <meta property="og:image" content="/assets/og-image/main-banner.jpg">
+    16:     <meta name="apple-itunes-app" content="app-id=768163905"></meta>
+    17:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    18:     <!--[if gte IE 9]>
+    19:       <style type="text/css">
+    20: 
+  app/assets/stylesheets/application.scss:21
+  app/views/layouts/application.html.erb:17:in `block in _app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+  app/views/layouts/application.html.erb:3:in `_app_views_layouts_application_html_erb___3355686657007848063_70287500992320'
+
+
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/DesignerNaruka/.rvm/gems/ruby-2.3.1@global/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 13:31:15 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.0ms)
+  Rendered website_shared/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1956ms (Views: 1956.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.self-ec351ef589c909b6fc9ccbf2563a3c8e8bf266f6b8b2426f458552faa338371f.css?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/font-awesome.self-c2147f3d0fda4894218d1514f6f1e5fbd9b70c0fa7fa4f8930f1fbcd51512c2b.css?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/application.self-3d9b71898d037d8b75619eb54e8a713aa1ec1926887e362c63d0ae50158cce69.css?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/mixins.self-521bfffb808bd9401d6ce4553fc074893c400deefabe017a6bb799b9c47969b9.css?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/header.self-abdcbd53fcf62336062c67c222926f7159e1cfb06bee073e6bcf2386f1b5b7f1.css?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/v1layout.self-f3a909da520a649a21cae2fef39f29f87880eb2decc1994145c84bf2315c165c.css?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-18e969fb4a0dff416f875b6db38ed19456c5d3efddf9704c50b3cc108f6fda8f.js?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/fontawesome-webfont-7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73.woff2" for ::1 at 2016-06-23 13:31:17 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-23 13:31:18 +0530
+
+
+Started GET "/" for ::1 at 2016-06-23 13:32:20 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.0ms)
+  Rendered website_shared/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.self-abdcbd53fcf62336062c67c222926f7159e1cfb06bee073e6bcf2386f1b5b7f1.css?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/footer.self-ec351ef589c909b6fc9ccbf2563a3c8e8bf266f6b8b2426f458552faa338371f.css?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/v1layout.self-f3a909da520a649a21cae2fef39f29f87880eb2decc1994145c84bf2315c165c.css?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/mixins.self-521bfffb808bd9401d6ce4553fc074893c400deefabe017a6bb799b9c47969b9.css?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/font-awesome.self-c2147f3d0fda4894218d1514f6f1e5fbd9b70c0fa7fa4f8930f1fbcd51512c2b.css?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-18e969fb4a0dff416f875b6db38ed19456c5d3efddf9704c50b3cc108f6fda8f.js?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/application.self-3d9b71898d037d8b75619eb54e8a713aa1ec1926887e362c63d0ae50158cce69.css?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/fontawesome-webfont-7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73.woff2" for ::1 at 2016-06-23 13:32:20 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-23 13:32:21 +0530
+
+
+Started GET "/" for ::1 at 2016-06-23 13:32:24 +0530
+Processing by WelcomeController#index as HTML
+  Rendered website_shared/_navigation.html.erb (0.0ms)
+  Rendered website_shared/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.self-c2147f3d0fda4894218d1514f6f1e5fbd9b70c0fa7fa4f8930f1fbcd51512c2b.css?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/footer.self-ec351ef589c909b6fc9ccbf2563a3c8e8bf266f6b8b2426f458552faa338371f.css?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/header.self-abdcbd53fcf62336062c67c222926f7159e1cfb06bee073e6bcf2386f1b5b7f1.css?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/v1layout.self-f3a909da520a649a21cae2fef39f29f87880eb2decc1994145c84bf2315c165c.css?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/mixins.self-521bfffb808bd9401d6ce4553fc074893c400deefabe017a6bb799b9c47969b9.css?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/cbpAnimatedHeader.self-18e969fb4a0dff416f875b6db38ed19456c5d3efddf9704c50b3cc108f6fda8f.js?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/application.self-3d9b71898d037d8b75619eb54e8a713aa1ec1926887e362c63d0ae50158cce69.css?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/classie.self-8f4e1bea9300f074f0ea8782eb168f651bf9b67add347f4e1e142a2c1554ae9d.js?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/agency.self-a88f03fe9650b426169087aab258cb88babf9794ae83c79c9994f09114254470.js?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/v1layout.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/fontawesome-webfont-7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73.woff2" for ::1 at 2016-06-23 13:32:24 +0530
+
+
+Started GET "/assets/ico/favicion.ico" for ::1 at 2016-06-23 13:32:25 +0530
