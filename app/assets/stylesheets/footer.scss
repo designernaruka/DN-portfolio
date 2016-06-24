@@ -12,7 +12,43 @@ footer {
   background-color: $grey-secondary;
 
   .container {
-    padding: $spacesmall + $spacexsmall 0;
+    padding: $spacelarge + $spacesmall 0;
+  }
+
+  .contactSprite {
+
+  }
+
+  .contactHolder {
+    display: table;
+    height: 100px;
+    vertical-align: $verticaltext-Middle;
+
+    > div {
+      border-left: $dashedborder 2px $grey-primary;
+      display: table-cell;
+      padding-left: $spacemedium;
+      vertical-align: $verticaltext-Middle;
+    }
+  }
+
+  .contactSprite {
+    color: $brand-secondary;
+    display: table-cell;
+    padding: 0 $spacemedium;
+    vertical-align: $verticaltext-Middle;
+  }
+
+  h2 {
+    color: $brand-secondary;
+    font-size: $textsmall - 0.4;
+    line-height: $textxsmall;
+  }
+
+  p {
+    color: $brand-secondary;
+    font-size: $textsmall - 0.8;
+    line-height: $textsmall - 0.5;
   }
 
 }
@@ -208,7 +244,7 @@ footer {
       display: $inBlock;
       height: 13px;
       margin: 0 $spacesmall;
-      vertical-align: middle;
+      vertical-align: $verticaltext-Middle;
     }
     &:last-child {
       &:after {
