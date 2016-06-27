@@ -48,11 +48,6 @@ footer {
     height: 30px;
     padding: $spacemedium + $spacesmall - 4 0;
     width: 1px;
-
-    @media screen and (max-width: $screen-xs) {
-      display: none;
-    }
-
   }
 
   &.first-child {
