@@ -1,3 +1,8 @@
+// Import Variables and mixins
+
+@import "variables";
+@import "mixins";
+
 /*
 * Style tweaks
 * --------------------------------------------------
@@ -16,18 +21,80 @@ footer {
 /*
  * Custom styles
  */
+ .navbar-default {
+  background-color: rgba($brand-white, .7);
+  border: none;
+
+  &.navbar-shrink {
+    background-color: $brand-white ;
+  }
+
+ }
+
 .navbar-brand {
-    font-size: 24px;
+  height: auto;
+  visibility: hidden;
+  width: 240px;
+}
+
+.nav > li {
+
+  margin-left: -1px;
+
+  &:before {
+    color: $brand-secondary;
+    content: '|';
+    display: $inBlock;
+    height: 30px;
+    padding: $spacemedium + $spacesmall - 4 0;
+    width: 1px;
+
+    @media screen and (max-width: $screen-xs) {
+      display: none;
+    }
+
+  }
+
+  &.first-child {
+
+    &:before {
+      content: ' ';
+      padding: 0;
+    }
+
+  }
+
+  > a {
+    @include transiction(0.8s);
+    color: $brand-secondary;
+    display: $inBlock;
+    padding-bottom: $spacemedium + $spacesmall - 4;
+    padding-top: $spacemedium + $spacesmall - 4;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: $brand-secondary;
+
+  &:hover {
+    color: $brand-primary;
+  }
 }
 
 .navbar-container {
-    padding: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
-    background-color: #222;
-    border-color: #080808;
-    box-shadow: 0 0 5px rgba(0,0,0,.8);
+  background-color: #222;
+  border-color: #080808;
+  box-shadow: 0 0 5px rgba(0,0,0,.8);
 }
 
 .navbar-brand.fixed-theme {
@@ -42,7 +109,6 @@ footer {
 .navbar-container.fixed-theme,
 .navbar.navbar-fixed-top.fixed-theme,
 .navbar-brand,
-.navbar-container{
-    transition: 0.8s;
-    -webkit-transition:  0.8s;
+.navbar-container {
+  @include transiction(0.8s);
 }
