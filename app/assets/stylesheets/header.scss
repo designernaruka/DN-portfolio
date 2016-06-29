@@ -63,8 +63,10 @@ footer {
     @include transiction(0.8s);
     color: $brand-secondary;
     display: $inBlock;
-    padding-bottom: $spacemedium + $spacesmall - 4;
-    padding-top: $spacemedium + $spacesmall - 4;
+    margin-bottom: $spacemedium + $spacesmall - 4;
+    margin-top: $spacemedium + $spacesmall - 4;
+    padding-bottom: 0;
+    padding-top: 0;
     text-transform: uppercase;
 
     &:hover {
@@ -107,3 +109,13 @@ footer {
 .navbar-container {
   @include transiction(0.8s);
 }
+
+
+// hero Slider
+.heroSlider {
+  background: image-url("https://cdn.punchh.com/hero-image/campaigns-optimized.jpg") center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
