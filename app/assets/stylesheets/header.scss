@@ -107,7 +107,6 @@ footer {
   @include transiction(0.8s);
 }
 
-
 // hero Slider
 .heroSlider {
   background-repeat: no-repeat;
@@ -137,22 +136,9 @@ footer {
 }
 
 .swiper-caption {
-  bottom: 0;
-  color: $brand-white;
-  display: table;
-  height: 100vh;
-  left: 0;
-  position: $absolute;
-  right: 0;
-  text-align: $alignleft;
-  top: 0;
-  width: 100%;
+  @extend .cell-content-caption;
 
   .swiper-content-holder {
-    display: table-cell;
-    height: 100%;
-    vertical-align: middle;
-    width: 100%;
+    @extend .content-holder;
   }
-
 }

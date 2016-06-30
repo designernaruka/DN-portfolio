@@ -117,3 +117,26 @@ h3 {
 .secondaryColor {
   color: $brand-primary;
 }
+
+
+
+// Intro DN
+
+.dnIntro {
+  height: 100vh;
+  position: $relative;
+  width: 100%;
+
+  .dnIntro-caption {
+    @extend .cell-content-caption;
+  }
+
+  .dnIntro-content {
+    @extend .content-holder;
+  }
+
+  .headingSecondary {
+    padding-left: $spacemedium - $spacexsmall;
+  }
+
+}

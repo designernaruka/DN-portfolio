@@ -57,3 +57,25 @@ $width100p : 100%;
 // position
 $absolute: absolute;
 $relative: relative;
+
+
+.cell-content-caption {
+  bottom: 0;
+  color: $brand-secondary;
+  display: table;
+  height: 100vh;
+  left: 0;
+  position: $absolute;
+  right: 0;
+  text-align: $alignleft;
+  top: 0;
+  width: 100%;
+
+}
+
+.content-holder {
+  display: table-cell;
+  height: 100%;
+  vertical-align: $verticaltext-Middle;
+  width: 100%;
+}
