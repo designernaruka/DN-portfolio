@@ -107,6 +107,61 @@ footer {
   @include transiction(0.8s);
 }
 
+// mobile cross icon
+.navbar-header .navbar-toggle {
+  background: $transparent;
+  border: 0;
+  margin-right: 0;
+  outline: none;
+  padding: $spacemedium;
+
+  &:hover {
+    background: $transparent;
+  }
+
+  .icon-bar {
+    @include transiction(0.2s);
+    background-color: $brand-secondary;
+    border-radius: 0;
+    width: 22px;
+  }
+
+  &.collapsed {
+
+    .icon-bar {
+      background-color: $brand-primary;
+    }
+
+    .top-bar {
+      transform: rotate(0);
+    }
+
+    .middle-bar {
+      opacity: 1;
+    }
+
+    .bottom-bar {
+      transform: rotate(0);
+    }
+
+  }
+
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+
+  .middle-bar {
+    opacity: 0;
+  }
+
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+
+}
+
 // hero Slider
 .heroSlider {
   background-repeat: no-repeat;
