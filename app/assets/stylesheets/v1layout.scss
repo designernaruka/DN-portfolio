@@ -140,3 +140,91 @@ h3 {
   }
 
 }
+
+
+// About DN
+
+.dnAbout {
+  height: 100vh;
+  position: $relative;
+  width: 100%;
+
+  .dnAbout-caption {
+    @extend .cell-content-caption;
+  }
+
+  .dnAbout-content {
+    @extend .content-holder;
+  }
+
+  .headingSecondary {
+    padding-left: $spacemedium - $spacexsmall;
+  }
+
+}
+
+
+// Skills DN
+
+.dnSkills {
+  height: 100vh;
+  position: $relative;
+  width: 100%;
+
+  .dnSkills-caption {
+    @extend .cell-content-caption;
+  }
+
+  .dnSkills-content {
+    @extend .content-holder;
+  }
+
+  .headingSecondary {
+    padding-left: $spacemedium - $spacexsmall;
+  }
+
+}
+
+
+// Work DN
+
+.dnWork {
+  height: 100vh;
+  position: $relative;
+  width: 100%;
+
+  .dnWork-caption {
+    @extend .cell-content-caption;
+  }
+
+  .dnWork-content {
+    @extend .content-holder;
+  }
+
+  .headingSecondary {
+    padding-left: $spacemedium - $spacexsmall;
+  }
+
+}
+
+
+// Lab DN
+
+.dnLab {
+  height: 100vh;
+  position: $relative;
+  width: 100%;
+
+  .dnLab-caption {
+    @extend .cell-content-caption;
+  }
+
+  .dnLab-content {
+    @extend .content-holder;
+  }
+
+  .headingSecondary {
+    padding-left: $spacemedium - $spacexsmall;
+  }
+
+}
