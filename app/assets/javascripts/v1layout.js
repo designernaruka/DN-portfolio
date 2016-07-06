@@ -1,10 +1,11 @@
-//= require bootstrap
 //= require jquery
+//= require bootstrap
 //= require cbpAnimatedHeader
 //= require classie
 //= require agency
 //= require jquery.easing.min
 //= require swiper.min
+//= require bootstrapValidator.min
 
 // For Touch Slider Carosol
 var swiper = new Swiper('.heroSlider', {

@@ -12,13 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
 
-//= require agency
-//= require bootstrap
-//= require classie
-//= require jquery.easing.min
-//= require cbpAnimatedHeader
+
+
 //= require contact_me
 //= require jqBootstrapValidation
-//= require bootstrapValidator.min
+
+//= require_tree .
