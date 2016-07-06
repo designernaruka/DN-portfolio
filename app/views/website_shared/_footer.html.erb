@@ -35,92 +35,36 @@
 
   <!-- contact info end -->
 
-  <!-- contact map and forum -->
+  <!-- get dn updates -->
 
-  <section class="contactmapForum">
-    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 alignright">
-      <div class="col-md-offset-2 col-md-8">
-        <form role="form" id="contact-form" class="contact-form">
-          <div class="headingSecondary">
-            <div class="headingHolder">
-              <h2>GET IN TOUCH</h2>
-              <span>Contact for Project or Download CV</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-                <input type="text" class="form-control input-lg" name="Name" autocomplete="off" id="Name" placeholder="Name">
+  <section class="contactUpdates">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-4">
+            <div class="headingSecondary">
+              <div class="headingHolder">
+                <h2>GET <i class="textLighter">DN</i> UPDATES</h2>
+                <span>Kinldy provide your e-mail id for get in touch always</span>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-                <input type="email" class="form-control input-lg" name="email" autocomplete="off" id="email" placeholder="E-mail">
-              </div>
+          <div class="col-md-6 col-md-offset-3">
+            <div>
+              <form action="#">
+                <div class="input-group col-lg-12 col-md-12  col-sm-12  col-xs-12">
+                  <input class="btn btn-lg inputText col-lg-8 col-md-8 col-sm-7 col-xs-7" name="email" id="email" type="email" placeholder="Your Email" required>
+                  <button class="btn btn-info btn-lg btnSubmit col-lg-4 col-md-4 col-sm-5 col-xs-5" type="submit">SUBSCRIBE NOW</button>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-                <textarea class="form-control textarea input-lg" rows="4" name="Message" id="Message" placeholder="Message"></textarea>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <button type="submit" class="btn main-btn btn-lg hidden-sm hidden-xs">Send message</button>
-              <button type="submit" class="btn main-btn btn-lg btn-block hidden-lg hidden-md">Send message</button>
-            </div>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
-    <script type="text/javascript">
-      $('#contact-form').bootstrapValidator({
-        // live: 'disabled',
-        message: 'This value is not valid',
-        feedbackIcons: {
-          valid: 'glyphicon glyphicon-ok',
-          invalid: 'glyphicon glyphicon-remove',
-          validating: 'glyphicon glyphicon-refresh'
-        },
-        fields: {
-          Name: {
-            validators: {
-              notEmpty: {
-                message: 'The Name is required and cannot be empty'
-              }
-            }
-          },
-          email: {
-            validators: {
-              notEmpty: {
-                message: 'The email address is required'
-              },
-              emailAddress: {
-                message: 'The email address is not valid'
-              }
-            }
-          },
-          Message: {
-            validators: {
-              notEmpty: {
-                message: 'The Message is required and cannot be empty'
-              }
-            }
-          }
-        }
-      });
-    </script>
-    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 alignleft">
-      <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
-    </div>
-    <div class="clearfix"> </div>
   </section>
 
-  <!-- contact map and forum end -->
+  <!-- get dn updates end -->
 
   <!-- socially connected icons -->
 
@@ -162,37 +106,6 @@
 
   <!-- socially connected icons end -->
 
-  <!-- get dn updates -->
-
-  <section class="contactUpdates">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-md-offset-4">
-            <div class="headingSecondary">
-              <div class="headingHolder">
-                <h2>GET <i class="textLighter">DN</i> UPDATES</h2>
-                <span>Kinldy provide your e-mail id for get in touch always</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-md-offset-3">
-            <div>
-              <form action="#">
-                <div class="input-group col-lg-12 col-md-12  col-sm-12  col-xs-12">
-                  <input class="btn btn-lg inputText col-lg-8 col-md-8 col-sm-7 col-xs-7" name="email" id="email" type="email" placeholder="Your Email" required>
-                  <button class="btn btn-info btn-lg btnSubmit col-lg-4 col-md-4 col-sm-5 col-xs-5" type="submit">SUBSCRIBE NOW</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- get dn updates end -->
-
   <!-- footer navigation -->
 
   <section class="footerNavigation">
@@ -201,13 +114,40 @@
       All rights reserved. <span class="secondaryColor">&copy;</span> 2016
      </div>
      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 textright">
-      <%= link_to "HELLO", "#", class: " " %>
-      <%= link_to "INTRO", "#", class: " " %>
-      <%= link_to "SKILLS", "#", class: " " %>
-      <%= link_to "WORK", "#", class: " " %>
-      <%= link_to "LAB", "#", class: " " %>
-      <%= link_to "ABOUT", "#", class: " " %>
-      <%= link_to "CONTACT", "#", class: " " %>
+      <div class=" " role="navigation">
+        <div class="pull-right">
+          <div class="navbar-header page-scroll">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                  <%= link_to(' ', '#page-top', class: 'page-scroll', title: 'RETURN TO TOP') %>
+                </li>
+                <li class="first-child">
+                  <%= link_to('Hello', '#hello', class: 'page-scroll', title: 'Hello') %>
+                </li>
+                <li>
+                  <%= link_to('INTRO', '#intro', class: 'page-scroll', title: 'INTRO') %>
+                </li>
+                <li>
+                  <%= link_to('ABOUT', '#about', class: 'page-scroll', title: 'ABOUT') %>
+                </li>
+                <li>
+                  <%= link_to('SKILLS', '#skills', class: 'page-scroll', title: 'SKILLS') %>
+                </li>
+                <li>
+                  <%= link_to('WORK', '#work', class: 'page-scroll', title: 'WORK') %>
+                </li>
+                <li>
+                  <%= link_to('LAB', '#contact', class: 'page-scroll', title: 'LAB') %>
+                </li>
+              </ul>
+            </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      </div>
      </div>
     </div>
   </section>
@@ -226,3 +166,55 @@
   </section>
   <!-- footer logo -->
 </footer>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div class="overlay-content">
+    <div class="contactmapForum">
+      <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 alignright">
+        <div class="col-md-offset-1 col-md-8">
+          <form role="form" id="contact-form" class="contact-form">
+            <div class="headingSecondary">
+              <div class="headingHolder">
+                <h2>GET IN TOUCH</h2>
+                <span>Contact for Project or Download CV</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" name="Name" autocomplete="off" id="Name" placeholder="Name">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="email" class="form-control input-lg" name="email" autocomplete="off" id="email" placeholder="E-mail">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea class="form-control textarea input-lg" rows="4" name="Message" id="Message" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="submit" class="btn main-btn btn-lg hidden-sm hidden-xs">Send message</button>
+                <button type="submit" class="btn main-btn btn-lg btn-block hidden-lg hidden-md">Leave A Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 alignleft">
+        <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+</div>
+<span onclick="openNav()" class="contactForum"><i class="fa fa-envelope-o fa-fw fa-2x contactSprite" aria-hidden="true"></i></span>

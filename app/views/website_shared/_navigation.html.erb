@@ -1,48 +1,46 @@
 <header>
-  <nav class="navbar navbar-default navbar-fixed-top  animated bounceInDown go">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top animated bounceInDown go" role="navigation">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
         </button>
         <%= link_to(image_tag('logos/index-nav.svg',class: "img-responsive"),root_path, title: "DN Designer Naruka", height: '', width: '120', class:'navbar-brand img-responsive') %>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden">
-            <%= link_to "#page-top" %>
+            <%= link_to(' ', '#page-top', class: 'page-scroll', title: 'RETURN TO TOP') %>
           </li>
           <li class="first-child">
-            <a class="nav-links" href="#hello">HELLO</a>
+            <%= link_to('Hello', '#hello', class: 'page-scroll', title: 'Hello') %>
           </li>
           <li>
-            <a class="nav-links" href="#intro">INTRO</a>
+            <%= link_to('INTRO', '#intro', class: 'page-scroll', title: 'INTRO') %>
           </li>
           <li>
-            <a class="nav-links" href="#about">ABOUT</a>
+            <%= link_to('ABOUT', '#about', class: 'page-scroll', title: 'ABOUT') %>
           </li>
           <li>
-            <a class="nav-links" href="#skills">SKILLS</a>
+            <%= link_to('SKILLS', '#skills', class: 'page-scroll', title: 'SKILLS') %>
           </li>
           <li>
-            <a class="nav-links" href="#work">WORK</a>
+            <%= link_to('WORK', '#work', class: 'page-scroll', title: 'WORK') %>
           </li>
           <li>
-            <a class="nav-links" href="#contact">LAB</a>
+            <%= link_to('LAB', '#contact', class: 'page-scroll', title: 'LAB') %>
           </li>
-          <!-- <li>
-            <a class="nav-links lastChild" href="#contact">CONTACT</a>
-          </li> -->
         </ul>
       </div>
       <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
+    <!-- /.container -->
   </nav>
 </header>
