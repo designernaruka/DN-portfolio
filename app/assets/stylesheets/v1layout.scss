@@ -49,13 +49,12 @@ h3 {
   }
 
   &:before {
-    border-right: $solidborder 3px $brand-primary;
+    border-right: $solidborder 6px $brand-primary;
     content: '';
     display: $inBlock;
     height: 40px;
     margin: $spacexsmall + 1 0 0 -15px;
     vertical-align: $verticalTop;
-    width: 3px;
   }
 
   span {
