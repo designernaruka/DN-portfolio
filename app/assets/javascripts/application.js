@@ -13,8 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 
-
-
 //= require contact_me
 //= require jqBootstrapValidation
 

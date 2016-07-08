@@ -11,19 +11,22 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-.slow{
+
+.slow {
 	-webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-.slower{
+
+.slower {
 	-webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-.slowest{
+
+.slowest {
 	-webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-fill-mode: forwards;
@@ -535,7 +538,7 @@
         transform: translateY(0);
     }
 }
-.fadeInDown{
+.fadeInDown {
     opacity: 0;
     -webkit-transform: translateY(-400px);
     transform: translateY(-400px);

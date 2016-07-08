@@ -184,6 +184,50 @@ h3 {
 
 }
 
+.content-box {
+  position: $relative;
+
+  &.alt-right {
+    margin-bottom: $spacemedium + $spacexsmall;
+    padding-right: $spacelarge + $spacemedium;
+  }
+
+  .alt-icon-right {
+    position: $absolute;
+    right: 0;
+    top: 5px;
+  }
+
+}
+
+.content-box {
+  position: $relative;
+
+  &.alt-right,
+  &.alt-left {
+    margin-bottom: $spacemedium + $spacexsmall;
+  }
+
+  &.alt-right {
+    padding-right: $spacelarge + $spacemedium;
+  }
+
+  &.alt-left {
+    padding-left: $spacelarge + $spacemedium;
+  }
+
+  .alt-icon-right,
+  .alt-icon-left {
+    position: $absolute;
+    top: 5px;
+  }
+
+  .alt-icon-left {
+    left: 0;
+  }
+
+}
+
 
 // Work DN
 
