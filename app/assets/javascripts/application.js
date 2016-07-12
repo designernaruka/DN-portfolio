@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 
-//= require contact_me
 //= require jqBootstrapValidation
 
+//= css3-animate-it
 //= require_tree .

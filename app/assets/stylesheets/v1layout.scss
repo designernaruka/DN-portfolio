@@ -135,7 +135,14 @@ h3 {
   }
 
   .headingSecondary {
+    display: $inBlock;
     padding-left: $spacemedium - $spacexsmall;
+  }
+
+  .introText {
+    font-size: 1.2em;
+    padding-top: $spacemedium + $spacesmall;
+    line-height: 2em;
   }
 
 }
