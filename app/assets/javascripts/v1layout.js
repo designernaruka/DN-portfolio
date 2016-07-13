@@ -6,6 +6,7 @@
 //= require jquery.easing.min
 //= require swiper.min
 //= require bootstrapValidator.min
+//= require css3-animate-it
 
 // For Touch Slider Carosol
 var swiper = new Swiper('.heroSlider', {
