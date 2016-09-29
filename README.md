@@ -122,3 +122,4 @@ Instead of manually fixing hound issues, you can use the command given below to 
 $ rubocop -ac .rubocop.yml /path/to/file/where/hound/commented/in/our/pr
 ```
 This above will fix most of the hound issues automatically.
+# designernaruka

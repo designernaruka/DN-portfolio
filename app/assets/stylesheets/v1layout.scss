@@ -89,6 +89,9 @@ h3 {
 .spaceBnano {
   padding-bottom : $spacelarge;
 }
+.spaceB120 {
+  padding-bottom: $spacelarge * 3;
+}
 
 // align and floats
 
@@ -176,6 +179,44 @@ h3 {
   height: 100vh;
   position: $relative;
   width: 100%;
+
+  .skillsLeft {
+    background-color: $brand-secondary;
+    color: $brand-white;
+    min-height: 100vh;
+    text-align: $alignright;
+  }
+
+  .skillsRight {
+    background-color: $bg-secondary;
+    color: $brand-secondary;
+    min-height: 100vh;
+    text-align: $alignleft;
+  }
+
+  .skillsPicture {
+    position: $absolute;
+    top: -82px;
+
+    img {
+      min-height: 100vh;
+      width: auto;
+    }
+  }
+
+  .skillsContent {
+    @extend .cell-content-caption;
+
+    &.leftContent {
+      color: $brand-white;
+      text-align: $alignright;
+    }
+
+    &.rightContent {
+      color: $brand-secondary;
+    }
+
+  }
 
   .dnSkills-caption {
     @extend .cell-content-caption;
