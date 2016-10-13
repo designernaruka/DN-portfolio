@@ -49,6 +49,8 @@ $solidborder:   solid;
 
 // font weight and case
 
+$font-bold: bold;
+$font-normal: normal;
 $uppercase: uppercase;
 
 
@@ -79,4 +81,10 @@ $relative: relative;
   height: 100%;
   vertical-align: $verticaltext-Middle;
   width: 100%;
+}
+
+.cell-structure {
+  display: table-cell;
+  float: none;
+  vertical-align: $verticaltext-Middle;
 }
